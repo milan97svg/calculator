@@ -1,26 +1,21 @@
-function add(a,b) {
-    return a+b;
+let firstNumber
+let secondNumber
+let step = 0
+let operation
+let result = 0
+
+function getNumber(num) {
+
 }
 
-function subtract(a,b) {
-    return a-b;
+function getOperator(op) {
+
 }
-
-function multiply(a,b) {
-    return a*b;
-}
-
-function divide(a,b) {
-    return a/b;
-}
-
-const display = document.querySelector(".input");
-
-function addToDisplay(input) {
-    return display.value += input;
-};
 
 function clearDisplay() {
-    return display.value = "";
+    
 }
-      
+
+const calculateEquals = () => {
+
+}
